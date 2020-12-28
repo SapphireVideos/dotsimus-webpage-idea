@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #2C2F33;
+	color: white;
+	font-family: 'Arial';
+}
+nav > ul {
+	list-style-type: none;
+	height: 64px;
+}
+.verticalSeparator {
+	height: 100%;
+	width: 1px;
+	background: white;
+}
+.horizontalSeparator {
+	width: 100%;
+	height: 1px;
+	background: white;
+}
+nav > ul > li {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	margin-left: 20px;
+}
+nav > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+nav > ul > li > a:active {
+	color: lightgrey;
+}
+nav > ul > li > a.active {
+	text-decoration: underline;
+	text-decoration-color: #EE0F44;
+}
+nav > ul > li > a:hover {
+	text-decoration: underline;
+}
+.bigTitle {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bigDescription {
+	font-size: 20px;
+	text-align: center;
+}
+.commandExamples {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.button {
+	text-decoration: none;
+	padding: 20px;
+	cursor: default;
+	display: inline-block;
+}
+.button:hover {
+	opacity: 60%;
+}
+.discordButton {
+	background: #7289DA;
+	color: white;
+}
+.githubButton {
+	background: black;
+	color: white;
+}
