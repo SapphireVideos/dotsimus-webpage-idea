@@ -6,7 +6,7 @@ optionsListPre.forEach((e, i) => {
 	optionsList.push("");
 });
 
-var inOption = 0;
+var inOption = -1;
 
 var typeBackI = 0;
 
