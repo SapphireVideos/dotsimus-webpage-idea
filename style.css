@@ -62,7 +62,7 @@ nav > ul > li > a:hover {
 }
 .button {
 	text-decoration: none;
-	padding: 20px;
+	padding: 20px 60px;
 	cursor: default;
 	display: inline-block;
 }
