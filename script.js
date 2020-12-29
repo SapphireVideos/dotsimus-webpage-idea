@@ -17,12 +17,11 @@ var typing = 0;
 function typeDelete() {
 	typing = 1;
 
-	if(!document.getElementById("commandExamples").innerHTML.length > 0) {
-		document.getElementById("commandExamples").innerHTML = "&nbsp;";
-	}
-
 	if (document.getElementById("commandExamples").innerHTML != "&nbsp;") {
 		document.getElementById("commandExamples").innerHTML = optionsList[inOption].slice(0, Number('-' + toSlice));
+		if(!document.getElementById("commandExamples").innerHTML.length > 0) {
+			document.getElementById("commandExamples").innerHTML = "&nbsp;";
+		}
 		toSlice++;
 		setTimeout(typeDelete, 100);
 	} else {
